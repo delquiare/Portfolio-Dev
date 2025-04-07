@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color-red: #E3646E;
+  --main-color-purple: #BB72E9;
+  --main-color-blue: #3996DB;
+  --main-color-green: #82BC4F;
+  --main-color-yellow: #EABD5F;
+
+  --bg-color-primary: #292C34; 
+  --bg-color-secondary: #0D0E11;
+  --base-color-gray-200: #16181D;
+  --base-color-gray-400: #878EA1;
+  --base-color-gray-500: #C0C4CE;
+  --text-color-primary: #E2E4E9;
+
+
+}
+
+body {
+  color: var(--text-color-primary);
+  background-color: var(--bg-color-primary);
+}
