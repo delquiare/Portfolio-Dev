@@ -38,17 +38,22 @@
 
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 94px;
+}
 
-.container div {
-  display: inline-flex;
+.bottons {
+  display: flex;
   justify-content: center;
   align-items: center;
   background: var(--bg-color-secondary);
   border-radius: 999px;
-  width: 82px;
-  height: 24px;
-  border: red solid 1px;
-
+  padding: 8px 16px;
+  gap: 8px;
+  
 }
 
 .container img {
@@ -58,5 +63,7 @@
   justify-content: center;
   align-items: center;
 }
+
+
 
 
