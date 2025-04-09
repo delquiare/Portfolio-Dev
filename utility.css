@@ -1,0 +1,16 @@
+.grid {
+ display: grid;
+ 
+}
+
+
+.grid-flow-col-2 {
+  grid-auto-flow: column;
+
+}
+
+img {
+max-width: 100%;
+}
+
+

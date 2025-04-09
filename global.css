@@ -11,17 +11,37 @@
   --main-color-green: #82BC4F;
   --main-color-yellow: #EABD5F;
 
-  --bg-color-primary: #292C34; 
-  --bg-color-secondary: #0D0E11;
-  --base-color-gray-200: #16181D;
+  --bg-color-primary: #16181D;
+  --bg-color-secondary: #292C34; 
+  --base-color-gray-200: #0D0E11; 
   --base-color-gray-400: #878EA1;
   --base-color-gray-500: #C0C4CE;
   --text-color-primary: #E2E4E9;
 
+  --font-title: 'Asap', sans-serif;
+  --font-mono: 'Inconsolata', monospace;
+  --font-text: 'Maven Pro', sans-serif;
+
+  --title-lg: 600 56px/120% var(--font-title);
+  --title-md: 600 24px/120% var(--font-title);
+  --title-sm: 600 16px/120% var(--font-title);
+  --subtitle: 400 20px/120% var(--font-mono);
+  --text-md: 400 16px/140% var(--font-text);
+  --text-sm: 400 14px/140% var(--font-text);
 
 }
 
 body {
+  font: var(--text-sm);
   color: var(--text-color-primary);
   background-color: var(--bg-color-primary);
+  background-image: url(./Assets/Images/Background_Intro.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} 
+
+.color-text {
+  color: var(--main-color-red);
 }
+
