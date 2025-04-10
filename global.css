@@ -35,11 +35,14 @@ body {
   font: var(--text-sm);
   color: var(--text-color-primary);
   background-color: var(--bg-color-primary);
+} 
+
+header {
   background-image: url(./Assets/Images/Background_Intro.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-} 
+}
 
 .color-text {
   color: var(--main-color-red);
