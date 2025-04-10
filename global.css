@@ -45,3 +45,12 @@ body {
   color: var(--main-color-red);
 }
 
+
+footer {
+  background-image: url(./Assets/Images/Background_Contacts.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 128px 120px 200px 120px;
+  text-align: center;
+}
